@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+
+// If you want to override variables do it here
+@import "variables";
+
+// Import styles with default layout.
+@import "@coreui/coreui/scss/coreui";
+
+// Import Chart.js custom tooltips styles
+@import "@coreui/chartjs/scss/coreui-chartjs";
+
+// Custom styles for this theme
+@import "theme";
+
+// Some temp fixes
+//@import "fixes";
+
+// If you want to add custom CSS you can put it here.
+@import "custom";
+
+// Examples
+// We use those styles to show code examples, you should remove them in your application.
+@import "examples";
+
+
+
+.loading-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 50%;
+  position: absolute;
+  top: 60px;
+  /* Ajusta la posición debajo del encabezado */
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 999;
+  /* Asegura que esté por encima del datatable */
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+  margin: 0;
+}
+
+.loading-message {
+  margin-top: 10px;
+}
+
+
+
+@import '../../node_modules/@swimlane/ngx-datatable/index.scss';
+@import '../../node_modules/@swimlane/ngx-datatable/themes/material.scss';
+@import '../../node_modules/@swimlane/ngx-datatable/themes/bootstrap.scss';
+@import '../../node_modules/@swimlane/ngx-datatable/assets/icons.css';

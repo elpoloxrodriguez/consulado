@@ -1,0 +1,33 @@
+<c-card class="my-4">
+  <c-card-body>
+    <!-- <c-row>
+      <c-col sm="5">
+        <h4 class="card-title mb-0" id="traffic">Traffic</h4>
+        <div class="small text-body-secondary">January - December 2023</div>
+      </c-col>
+      <c-col class="d-none d-md-block" sm="7">
+        <form>
+          <c-button-group class="float-end me-3" role="group">
+            <input class="btn-check" formControlName="trafficRadio" type="radio" value="Day" id="dayRadio" />
+            <label cButton cFormCheckLabel color="secondary" variant="outline" for="dayRadio">
+              Day
+            </label>
+            <input class="btn-check" formControlName="trafficRadio" type="radio" value="Month" id="radioMonth" />
+            <label cButton cFormCheckLabel color="secondary" variant="outline" for="radioMonth">
+              Month
+            </label>
+            <input class="btn-check" formControlName="trafficRadio" type="radio" value="Year" id="radioYear" />
+            <label cButton cFormCheckLabel color="secondary" variant="outline" for="radioYear">
+              Year
+            </label>
+          </c-button-group>
+        </form>
+      </c-col>
+    </c-row> -->
+    <!-- <c-chart [data]="mainChart.data" [height]="300" [ngStyle]="{ 'marginTop.px': 40 }" [options]="mainChart.options"
+      [type]="mainChart.type" (chartRef)="handleChartRef($event)">
+      Main chart
+    </c-chart> -->
+    <c-chart [data]="data" [height]="600" [ngStyle]="{ 'marginTop.px': 40 }" type="pie" />
+  </c-card-body>
+</c-card>

@@ -1,0 +1,8 @@
+.fondo-negro {
+  filter: drop-shadow(0 10px 10px #ffffff);
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  z-index: -1;
+}
