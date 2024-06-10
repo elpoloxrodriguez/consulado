@@ -8,6 +8,6 @@ export const environment = {
   hmr: false,
   ID: 'ID-001',
   apiUrl: 'https://localhost',
-  Hash: ':c521f27fb1b3311d686d511b668e5bd4',
+  Hash: ':e39df53803528221292e35f8aefc76bb',
   buildDateTime: 'Fri Mar 08 2024 14:02:54 GMT-0400 (Venezuela Time)',
 };
